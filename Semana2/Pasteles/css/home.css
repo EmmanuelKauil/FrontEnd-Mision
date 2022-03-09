@@ -1,0 +1,116 @@
+body{
+    font-family: sans-serif;
+    background-color: black;
+    
+}
+.topheader{
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+.logo{
+    border-radius: 50%;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.deco{
+    color: white;
+}
+.menu li{
+    padding: 0 15px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+    text-transform: uppercase;
+    position: relative;
+    left: 0;
+    width: auto;
+
+}
+.home{
+    text-align: center;
+    
+}
+.hor-pad{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.ver-pad{
+    padding-top: 350px;
+    padding-bottom: 350px;
+}
+.ver-pad2{
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
+.ver-pad3{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.menu-btn{
+    
+    font-size: 28px;
+    background-color: transparent;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.menu-btn2{
+    font-size: 28px;
+    background-color: transparent;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 7px;
+    cursor: pointer;
+    
+}
+.menu-btn5{
+    font-size: 28px;
+    background-color: transparent;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 7px;
+    cursor: pointer;
+    
+}
+.background-home{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+}
+.background-menu{
+    background-image: url("../img/background2.jpg");
+    background-repeat: no-repeat;
+
+}
+.background-ft{
+    background-image: url("../img/back3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.pedido-btn{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+table{
+    padding: 1em;
+    background: #f9f9f9;
+    border: 2px solid #c1c1c1;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.grid-td{
+    box-align:center;
+}
+.hor-pad-dash{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.ver-pad-dash{
+    padding-top: 0px;
+    padding-bottom: 300px;
+}
+.table-stock{
+    padding: 1em;
+    background: #f9f9f9;
+    border: 2px solid #c1c1c1;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    text-align: center;
+    
+}
+.title-stock{
+    color: white;
+    padding-bottom: 150px;
+    font-size: 30px;
+    text-decoration-style: double;
+    text-shadow: 2px 0 0 #000;
+}

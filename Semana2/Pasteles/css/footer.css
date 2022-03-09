@@ -1,0 +1,18 @@
+.footer-back{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(22, 77, 51);
+    width: auto;
+    height: 200px;
+
+}
+.footer-for{
+    padding: 10px;
+    align-items: center;
+
+} 
+.footer-text{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}

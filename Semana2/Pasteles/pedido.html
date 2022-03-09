@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Viewport" content="widht=device-width, initial-scale=1.0">
+    <title>Pedidos Pasteleria Nenis</title>
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <style>
+    form {
+            padding: 0.5em;
+            background: #f9f9f9;
+            border: 1px solid #c1c1c1;
+            margin-top: 2rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0.5em;
+            font-family: sans-serif;
+        }
+        label{
+            float: left;
+            width: 100px;
+            padding-right: 24px;
+        }
+        input {
+            float: left;
+            width: 200px;
+            padding-right: 24px;
+        }
+        .centro{
+            text-align: center;
+            
+        }
+       
+    
+    </style>
+</head>
+<body>
+    <header class="topheader">
+        <nav class="topnav">
+            <img class="logo"
+                height="60"
+                width="60"
+                src="./img/logo.jpg" alt="Pasteleria"
+            />
+            <ul class="menu">
+                
+                <li class="deco"><a href="./index.html">Home</a></li>
+                <li class="deco"><a href="#sab">Sabores</a></li>
+                <li class="deco" ><a href="#adornos">Adornos</a></li>
+                <li class="deco"><a href="#contacto">Conocenos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div class=" hor-pad ver-pad3 home background-home">
+        <div>
+          <h2 class="deco2" >Pedidos</h2>
+        </div>
+        <form action="pedido.js">
+        
+        <table>
+            <label class="labels" for="nombre">Nombre</label>
+            <input class="inputs" type="text" id="nombre" name="nombre "placeholder="Nombre">
+            <br><br>
+            <label for="tel2">Telefono</label>
+            <input type="tel" id="tel2" name="tel2" maxlength="10">
+            <br><br>
+            <label for="correo1">Correo</label>
+            <input type="email" id="correo1" name="correo1">
+            <br><br>
+            <label for="direccion">Direccion</label>
+            <input type="text" id="direccion" name="direccion">
+            <br><br>
+            <label for="text1">Descripcion</label><br>
+            <textarea name="text1" id="text1"  cols="50" rows="5">
+            </textarea>
+        </table>
+            
+        <br>
+        <p>Selecciona como lo quieres:</p>
+        <br>
+
+            <label for="deco">Decoracion</label>
+            <input list="deco">
+                <datalist id="deco">
+                    <option value="cumpleaños">
+                    <option value="boda">
+                    <option value="15 años">
+                    <option value="aniversario">
+                </datalist>
+        <br><br>
+
+            <label for="cant">Cantidad</label>
+            <input type="number" id="cant" name="cant">
+
+        <br><br>
+            <label for="sabores">tamaño</label>
+            <input list="size">
+                <datalist id="size">
+                    <option value="mediano">
+                    <option value="grande">  
+                </datalist>
+        <br><br>
+
+        <hr>
+        <p class="titulos" >Elege tus sabores:</p>
+
+        <input type="checkbox" id="sabor1" name="sabor1" value="3 leches">
+        <label for="topping1">3 leches</label><br><br>
+        <input type="checkbox" id="sabor2" name="sabor2" value="moca">
+        <label for="topping2">moca</label><br><br>
+        <input type="checkbox" id="sabor3" name="sabor3" value="chocolate">
+        <label for="topping3">chocolate</label><br><br>
+        <input type="checkbox" id="sabor4" name="sabor4" value="fresas">
+        <label for="topping3">fresas</label><br><br>
+        <input type="checkbox" id="sabor5" name="sabor5" value="coco">
+        <label for="topping3">coco</label><br><br>
+        <input type="checkbox" id="sabor6" name="sabor6" value="queso">
+        <label for="topping3">queso de bola</label>
+        <br><br>
+        <p class="titulos" >Fecha de entrega</p>
+        <label for="date">Fecha</label>
+        <input type="date" id="fecha1" name="fecha1"><br>
+        <br>
+        <hr>
+        <br><br>
+        </form>
+        <section class="pedido-btn">
+            <div class="div-menu2">
+                <button class="menu-btn2">
+                    <a href="./pedido.html">Restablecer</a>
+                </button>
+            </div>
+            <div class="div-menu2 div-btn-ft">
+                <button class="menu-btn2">
+                    <a href="./pedido.html">Enviar</a>
+                </button>
+            </div>
+        </section>
+    </div>
+    
+ 
+</body>
+</html>

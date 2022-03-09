@@ -1,0 +1,61 @@
+.grid1{
+    
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+
+}
+.sabores{
+    width: 150px;
+    height: 150px;
+    
+    
+    
+}
+.sab-img{
+    
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 150px;
+    height: 150px;
+    
+  
+
+}
+.circle{
+    border-radius: 50% 20% / 10% 40%;
+   
+   
+}
+.deco2{
+    color: white;
+    padding-bottom: 150px;
+    font-size: 50px;
+    text-decoration-style: double;
+    text-shadow: 2px 0 0 #000;
+}
+.deco3{
+    color: white;
+    padding-bottom: 100px;
+    font-size: 20px;
+    text-decoration-style: double;
+    text-shadow: 2px 0 0 #000;
+}
+.div-menu2{
+    padding-top: 100px;
+
+}
+.deco4{
+    color: white;
+    padding-bottom: 100px;
+    font-size: 20px;
+    text-decoration-style: double;
+    text-shadow: 2px 0 0 #000;
+}
+.div-btn-ft{
+    align-items: center;
+}
