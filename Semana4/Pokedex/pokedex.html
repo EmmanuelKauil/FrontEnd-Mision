@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="../Pokedex/style.css">
+    
+</head>
+<body>
+    <h1 class="titulo ">Pokedex LaunchX</h1>
+    <section class="pokemons">
+         <div class="img-contenedor">
+            <input type="text" placeholder="Ingresa Pokemon" id="pokeName" name="pokeName" class="fetch-input" ><br>
+            <button onclick="fetchPokemon()" class="fetch-btn">Buscar</button><br>
+                <img src="../Pokedex/Pokeball.png" alt="Pokemon" id="pokeImg" width="150px">
+        </div>
+        <div class="poke-contenedor">
+            
+            <div>
+                <h4>Nombre:</h4>
+                <h4>Peso:</h4>
+                <h4>Tipo:</h4>
+                <h4>Defensa:</h4>
+                <h4>Ataque:</h4>
+            </div>
+            <div>
+                <h4 id="nombre"></h4>            
+                <h4 id="peso">  </h4>
+                <h4 id="tipo">  </h4>
+                <h4 id="defensa">  </h4>
+                <h4 id="ataque">  </h4>
+            </div>
+
+        </div>
+    </section>    
+</body>
+<footer>
+    <script src="../Pokedex/pokedex.js"></script>
+</footer>
+</html>
